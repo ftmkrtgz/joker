@@ -1,0 +1,31 @@
+{
+  "name": "joker",
+  "version": "1.1.0",
+  "description": "example",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftmkrtgz/joker.git"
+  },
+  "keywords": [
+    "css",
+    "environment-setup"
+  ],
+  "author": "Fatma Kurtgozu <salihagemici.123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftmkrtgz/joker/issues"
+  },
+  "homepage": "https://github.com/ftmkrtgz/joker#readme",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
